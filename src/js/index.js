@@ -26,7 +26,7 @@ $(document).ready(function () {
     }
   });
 
-  // Index page banner select group (Plugin: Select 2)
+  /** Index page banner select group (Plugin: Select 2) **/
   const initSelects = (function() {
 
     $('.js-select-name').select2({
@@ -44,8 +44,23 @@ $(document).ready(function () {
       placeholder: "Сладость",
     });
 
-
   })();
+
+  /** Looking section slider **/
+  let lookingSlider = new Swiper ('.js-b-looking__slider', {
+    // Optional parameters
+    loop: true,
+    slidesPerView: 4,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-prev',
+      prevEl: '.swiper-button-next',
+    },
+
+  });
 
 
 

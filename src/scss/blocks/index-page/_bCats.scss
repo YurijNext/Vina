@@ -1,0 +1,61 @@
+.b-cats .b-title__box:after {
+  content: "02";
+}
+
+.b-cats {
+  padding: 136px 0;
+
+  &__title {
+    margin-bottom: 168px;
+  }
+
+  &__categories {
+    display: flex;
+  }
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 231px;
+    min-height: 496px;
+    padding: 0 19px;
+    border-right: 1px solid $s-gray;
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  &__group-title {
+    font-family: $mainFont;
+    @include font(24, normal, true);
+    color: $accent;
+    margin-bottom: 32px;
+  }
+
+  &__link {
+    @include font(16, normal);
+    color: $text-light;
+    line-height: 24px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+    @include trs();
+    cursor: pointer;
+    &:hover {
+      border-bottom: 1px solid $text-light;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+  }
+
+  &__all {
+    display: inline-block;
+    font-family: $fair-normal;
+    color: $accent;
+    letter-spacing: 0.4px;
+    border-bottom: 1px solid $accent;
+    margin-bottom: 16px;
+  }
+}
