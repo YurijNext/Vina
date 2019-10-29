@@ -177,10 +177,31 @@
 
 .b-banner__submit {
   font-family: 'PlayfairDisplay Bold', sans-serif;
-  padding: 12px 16px;
+  padding: 12px 29px;
   color: #fff;
+  font-size: 16px;
   border: 1px solid #fff;
   margin-left: 32px;
+  cursor: pointer;
+  @include trs(all, .2s);
+  &:hover {
+    background-color: $accent;
+    border-color: $accent;
+  }
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+  font-size: 16px;
+  font-family: $fair-normal;
+  color: $text;
+  @include trs();
+}
+
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple, .select2-container--default.select2-container--open.select2-container--below .select2-selection--single .select2-selection__placeholder {
+  color: red;
+  font-family: $fair-bold;
+  color: $text;
+  font-size: 16px;
 }
 
 

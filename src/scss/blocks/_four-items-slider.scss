@@ -14,6 +14,7 @@
     width: 100%;
     z-index: 1;
     padding: 0 16px;
+    @include trs(all, .2s);
   }
 
   &__card {
@@ -25,7 +26,7 @@
     cursor: pointer;
     overflow: hidden;
     top: 0;
-    @include trs(top, .1s);
+    @include trs(all, .2s);
     &:hover {
       background-color: #fff;
       top: -30px;
@@ -37,6 +38,7 @@
 
       .four-items__details {
         background-color: #fff;
+        color: $text;
         &:after {
           content: "";
           display: block;
@@ -47,6 +49,10 @@
           top: 50%;
           right: 16px;
           margin-top: -8px;
+        }
+
+        &:before {
+          background-color: $text;
         }
       }
     }
@@ -76,6 +82,7 @@
     width: 100%;
     background-color: $s-gray;
     z-index: 2;
+    //@include trs(all, .2s);
     &:before {
       @include pseudo();
       width: 48px;
@@ -83,6 +90,7 @@
       background-color: $accent;
       top: 50%;
       left: 0;
+      @include trs(all, .2s);
     }
   }
 

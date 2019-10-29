@@ -57,5 +57,10 @@
     letter-spacing: 0.4px;
     border-bottom: 1px solid $accent;
     margin-bottom: 16px;
+    @include trs();
+    &:hover {
+      color: $text;
+      border-color: $text;
+    }
   }
 }

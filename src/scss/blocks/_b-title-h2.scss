@@ -14,7 +14,7 @@
     &:after {
       @include pseudo(block, absolute, '01');
       color: $s-gray;
-      font-family: $mainFont;
+      font-family: $latoLight;
       font-weight: normal;
       font-size: 200px;
     }
@@ -47,6 +47,17 @@
     color: $text;
   }
 
+  &__link {
+    font-family: $fair-bold;
+    color: $text;
+    border-bottom: 1px solid $text;
+    @include trs();
+    &:hover {
+      color: $accent;
+      border-color: $accent;
+    }
+  }
+
   &--right {
     .b-title__box:after {
       bottom: 5%;
@@ -75,4 +86,12 @@
     }
   }
 
+}
+
+.b-title__wrap--margin-xl {
+  margin-left: 128px;
+  .b-title__descr {
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
 }

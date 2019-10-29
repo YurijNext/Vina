@@ -53,6 +53,7 @@ $(document).ready(function () {
     slidesPerView: 4,
     pagination: {
       el: '.swiper-pagination',
+      clickable: true,
     },
     // Navigation arrows
     navigation: {

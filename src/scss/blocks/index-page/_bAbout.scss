@@ -1,0 +1,86 @@
+
+.b-about__title .b-title__box:after {
+  content: "03";
+}
+
+.b-about__title .b-title__descr {
+  margin-top: 60px;
+}
+
+.b-about {
+  padding: 128px 0 152px 0;
+  background-color: $s-gray;
+
+  &__posts {
+    margin-top: 135px;
+    margin-bottom: 142px;
+  }
+
+  &__post {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 72px;
+  }
+
+  &__image {
+    width: 33%;
+    margin-right: 128px;
+  }
+
+  &__text {
+    max-width: 640px;
+  }
+
+  &__postdate {
+    color: rgba(39, 19, 23, 0.2);
+  }
+
+  &__posttitle {
+    color: $accent;
+    @include font(24);
+    font-family: $fair-bold;
+    line-height: 32px;
+    margin-bottom: 32px;
+  }
+
+  &__postdescr {
+    color: $text;
+    margin-bottom: 56px;
+  }
+
+  &__postlink {
+    font-family: $fair-bold;
+    line-height: 24px;
+    color: $accent;
+    letter-spacing: 0.4px;
+    border-bottom: 1px solid $accent;
+    @include trs();
+    &:hover {
+      color: $text;
+      border-color: $text;
+    }
+  }
+
+  &__descr {
+    font-size: 14px;
+    color: $text;
+    margin-bottom: 23px;
+  }
+
+  &__textitem {
+    font-size: 14px;
+    color: $text;
+    padding-left: 18px;
+    position: relative;
+    &:after {
+      @include pseudo();
+      width: 5px;
+      height: 1px;
+      background-color: $text;
+      left: 0;
+      top: 50%;
+    }
+  }
+}
+
