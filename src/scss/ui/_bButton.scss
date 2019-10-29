@@ -1,0 +1,21 @@
+.b-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 50px;
+  width: 300px;
+  height: 60px;
+  transition: all .3s;
+  border: none;
+  box-shadow: none;
+  background: white;
+  &__content {
+    color: #000;
+    font-size: 1rem;
+    @media (max-width: 768px) {
+      font-size: .7rem;
+
+    }
+  }
+
+}

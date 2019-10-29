@@ -1,0 +1,30 @@
+$breakpoints: (
+  "xsm": 321px,
+  "xs": 376px,
+  "sm": 577px,
+  "md": 769px,
+  "lg": 1025px,
+  "xl": 1320px
+);
+$z-indexes: (
+  'modal': 3,
+  'dropdown': 2,
+  'default': 1,
+  'below': -1,
+);
+
+// Colors
+
+$accent: #271317;
+//For main text
+$text: #6E6660;
+
+
+
+
+
+$mainFont: 'Lato Regular', sans-serif;
+$semi: 600
+
+
+
