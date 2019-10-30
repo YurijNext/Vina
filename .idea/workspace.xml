@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="469af4ad-2a8d-452f-9b32-ad0571788b7f" name="Default Changelist" comment="&quot;Сделал адаптив главной + прототип всплывающего окна&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/blocks/index-page/_bAbout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/index-page/_bAbout.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/blocks/index-page/_bBanner.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/index-page/_bBanner.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/blocks/index-page/_bCats.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/index-page/_bCats.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/blocks/index-page/_bLooking.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/index-page/_bLooking.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_b-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_b-title.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_bFooter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_bFooter.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_bHeader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_bHeader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_bLookingSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_bLookingSlider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/index-page/_bAbout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/index-page/_bAbout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/index-page/_bBanner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/index-page/_bBanner.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/index-page/_bCats.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/index-page/_bCats.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/index-page/_bLooking.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/index-page/_bLooking.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/index-page/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/index-page/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/helpers/_libs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/helpers/_libs.scss" afterDir="false" />
-    </list>
+    <list default="true" id="469af4ad-2a8d-452f-9b32-ad0571788b7f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +113,14 @@
       <workItem from="1572246333329" duration="3565000" />
       <workItem from="1572337250228" duration="26733000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;Сделал адаптив главной + прототип всплывающего окна&quot;">
+      <created>1572451262258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572451262260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

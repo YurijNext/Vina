@@ -1,0 +1,137 @@
+.b-cats__subtitle {
+  display: none;
+  color: $accent;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.js-close-full {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  z-index: 3;
+
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 13px;
+    height: 1px;
+    background-color: $text;
+    opacity: 1;
+    @include trs();
+  }
+
+  &:before {
+    transform: translate(-50%, -50%) rotate(-45deg)
+  }
+
+  &:after {
+    transform: translate(-50%, -50%) rotate(45deg)
+  }
+
+  &:hover {
+    .js-close-full:before, .js-close-full::after {
+      opacity: 0.65;
+    }
+  }
+}
+
+.b-cats--active {
+  border: none;
+  padding-top: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 21%;
+  z-index: 1;
+
+  .b-cats__subtitle {
+    display: block;
+  }
+
+  .b-cats__photo {
+    display: none;
+  }
+}
+
+.b-cats__full {
+  display: none;
+  padding: 80px 13px 72px 24px;
+  box-shadow: 0px 3px 10px rgba(39, 19, 23, 0.2);
+  overflow: hidden;
+}
+
+.b-cats__full--active {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-left: 21%;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1;
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 97%;
+    height: 72px;
+    background-color: #fff;
+  }
+}
+
+.js-close-full--visible {
+  display: block;
+}
+
+.b-cats__item--border{
+  padding-left: 24px;
+  border-left: 1px solid #C4C4C4;
+}
+
+.b-cats__full .b-cats__item {
+  margin-right: 45px;
+  width: 20%;
+}
+
+.mCustomScrollBox {
+  width: 100%;
+  overflow: visible;
+}
+
+.mCSB_inside>.mCSB_container {
+  display: flex;
+}
+
+.mCSB_scrollTools .mCSB_draggerContainer {
+  height: 115%;
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_draggerRail {
+  background-color: #F6F6F6;
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background: rgba(39, 19, 23, 0.1);
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_onDrag .mCSB_dragger_bar, .mCS-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+  background-color: rgba(39, 19, 23, 0.1);
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCS-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+  background-color: rgba(39, 19, 23, 0.1);
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background: rgba(39, 19, 23, 0.1);
+}
