@@ -56,6 +56,7 @@
     letter-spacing: 0.4px;
     border-bottom: 1px solid $accent;
     @include trs();
+
     &:hover {
       color: $text;
       border-color: $text;
@@ -73,6 +74,7 @@
     color: $text;
     padding-left: 18px;
     position: relative;
+
     &:after {
       @include pseudo();
       width: 5px;
