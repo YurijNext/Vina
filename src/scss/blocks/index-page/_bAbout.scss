@@ -4,7 +4,7 @@
 }
 
 .b-about__title .b-title__descr {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .b-about {
@@ -12,7 +12,7 @@
   background-color: $s-gray;
 
   &__posts {
-    margin-top: 135px;
+    margin-top: 105px;
     margin-bottom: 142px;
   }
 
@@ -66,7 +66,7 @@
   &__descr {
     font-size: 14px;
     color: $text;
-    margin-bottom: 23px;
+    margin-bottom: 18px;
   }
 
   &__textitem {
@@ -85,4 +85,34 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 1150px) {
+  .b-about__title .b-title__descr {
+    margin-top: 0;
+  }
+
+  .b-about {
+    &__post {
+      align-items: center;
+      flex-direction: column;
+    }
+
+    &__text {
+      max-width: 100%;
+    }
+
+    &__image {
+      margin-right: 0;
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  .b-about .b-title__text {
+    right: 6%;
+  }
+}
+
 

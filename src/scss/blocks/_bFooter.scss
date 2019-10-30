@@ -60,3 +60,24 @@
     color: $text;
   }
 }
+
+@media only screen and (max-width: 860px) {
+  .b-footer {
+    &__item {
+      margin-right: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .b-footer {
+    &__navigation {
+      flex-direction: column;
+    }
+
+    &__links {
+      margin-bottom: 20px;
+    }
+  }
+
+}

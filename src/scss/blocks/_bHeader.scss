@@ -7,7 +7,8 @@
   width: 100%;
 
   .container {
-    padding: 28px 0;
+    padding-top: 28px;
+    padding-bottom: 28px;
     height: 100%;
     border-bottom: 1px solid #EFECEA;
   }
@@ -31,6 +32,8 @@
 }
 
 .b-header__nav-logo {
+  min-width: 100px;
+  display: block;
   path {
     fill: #fff;
   }
@@ -39,7 +42,18 @@
 .b-header__nav-link {
   border-bottom: 1px solid transparent;
   @include trs(border-bottom, .2s, ease-out);
+  white-space: nowrap;
   &:hover {
     border-bottom: 1px solid #fff;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .b-header__nav-item:first-child {
+    margin-right: 50px;
+  }
+
+  .b-header__nav-item:last-child {
+    margin-left: 50px;
   }
 }

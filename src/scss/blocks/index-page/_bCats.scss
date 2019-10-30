@@ -6,18 +6,20 @@
   padding: 136px 0;
 
   &__title {
-    margin-bottom: 168px;
+    margin-bottom: 132px;
   }
 
   &__categories {
     display: flex;
+    padding-top: 24px;
+    position: relative;
   }
 
   &__group {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 231px;
+    width: 231px;
     min-height: 496px;
     padding: 0 19px;
     border-right: 1px solid $s-gray;
@@ -39,6 +41,7 @@
     line-height: 24px;
     padding-bottom: 2px;
     border-bottom: 1px solid transparent;
+    white-space: nowrap;
     @include trs();
     cursor: pointer;
     &:hover {
@@ -57,6 +60,7 @@
     letter-spacing: 0.4px;
     border-bottom: 1px solid $accent;
     margin-bottom: 16px;
+    white-space: nowrap;
     @include trs();
     &:hover {
       color: $text;
@@ -64,3 +68,59 @@
     }
   }
 }
+
+@media only screen and (max-width: 1000px) {
+
+ .b-cats {
+   &__categories {
+     flex-wrap: wrap;
+   }
+
+   &__group {
+     width: 33.3%;
+     margin-bottom: 50px;
+   }
+
+   &__wrap {
+     margin: 0 auto;
+   }
+
+   &__photo {
+     text-align: center;
+   }
+ }
+
+}
+@media only screen and (max-width: 700px) {
+  .b-cats__group {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .b-cats__group {
+    width: 100%;
+  }
+
+  .b-cats__photo {
+    text-align: center;
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  .b-cats__all {
+    display: inline-block;
+  }
+
+  .b-cats__group {
+    min-height: 0;
+    text-align: center;
+  }
+
+  .b-cats__list {
+    margin-bottom: 30px;
+  }
+}
+

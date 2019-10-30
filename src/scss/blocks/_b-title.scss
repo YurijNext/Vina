@@ -3,6 +3,11 @@
   @include flex(center);
   @include align(relative);
 
+  &__box-wrap {
+    position: relative;
+    margin-bottom: 30px;
+  }
+
   &__box {
     width: 544px;
     height: 240px;
@@ -33,7 +38,7 @@
       @include pseudo(block, absolute);
       bottom: 0;
       left: 0;
-      width: 208px;
+      width: 67%;
       height: 2px;
       background-color: $accent;
     }
@@ -57,25 +62,27 @@
   }
 
   &--right {
+    .b-title__box-wrap {
+      padding-right: 90px;
+    }
     .b-title__box:after {
       bottom: 5%;
       left: 6%;
     }
 
     .b-title__text {
-      left: 36%;
+      right: 0%;
       top: 25%;
     }
   }
 
   &--left {
-    .b-title__box {
-      margin-left: 90px;
-
-      &:after {
-        bottom: 5%;
-        left: 53%;
-      }
+    .b-title__box-wrap {
+      padding-left: 90px;
+    }
+    .b-title__box:after {
+      bottom: 5%;
+      right: 6%;
     }
 
     .b-title__text {
@@ -87,9 +94,71 @@
 }
 
 .b-title__wrap--margin-xl {
-  margin-left: 128px;
+  margin-left: 45px;
   .b-title__descr {
     margin-left: 0;
-    margin-bottom: 50px;
+    margin-bottom: 21px;
   }
 }
+
+
+@media only screen and (max-width: 1150px) {
+  .b-title {
+    flex-wrap: wrap;
+  }
+
+  .b-title__descr {
+    margin-left: 0;
+  }
+
+  .b-title__wrap--margin-xl {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .b-title__box {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .b-title--right, .b-title--left {
+    .b-title__box-wrap {
+      padding: 0;
+    }
+  }
+
+  .b-title__text {
+    font-size: 3rem;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  .b-title__text:after {
+    width: 208px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .b-title--right, .b-title--left {
+    .b-title__box-wrap {
+      width: 100%;
+    }
+  }
+
+  .b-title__box {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .b-title__text {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+  }
+}
+
+
+

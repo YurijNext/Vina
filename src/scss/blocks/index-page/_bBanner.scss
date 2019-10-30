@@ -7,6 +7,11 @@
   color: #fff;
 }
 
+.b-banner .container {
+  position: relative;
+  height: 100%;
+}
+
 .b-banner__title {
   font-family: 'PlayfairDisplay Regular';
   font-size: 4.375rem;
@@ -45,6 +50,15 @@
     }
   }
 }
+
+.b-banner__scroll {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 55px;
+}
+
 
 .b-banner__select-group {
   display: flex;
@@ -183,6 +197,7 @@
   border: 1px solid #fff;
   margin-left: 32px;
   cursor: pointer;
+  white-space: nowrap;
   @include trs(all, .2s);
   &:hover {
     background-color: $accent;
@@ -203,5 +218,68 @@
   color: $text;
   font-size: 16px;
 }
+
+.js-select-name + .select2-container {
+  width: 256px !important;
+}
+
+.js-select-item + .select2-container {
+  width: 159px !important;
+}
+
+@media only screen and (max-width: 940px) {
+  .b-banner__title {
+    font-size: 3rem;
+  }
+
+  .b-banner__select-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .js-select-name + .select2-container {
+    width: 50% !important;
+  }
+
+  .js-select-item + .select2-container {
+    width: 50% !important;
+  }
+
+  .b-banner__submit {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .b-banner__title {
+    font-size: 2.5rem;
+  }
+
+  .js-select-name + .select2-container {
+    width: 70% !important;
+  }
+
+  .js-select-item + .select2-container {
+    width: 70% !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .b-banner__title {
+    padding-top: 120px;
+    font-size: 2rem;
+  }
+
+  .js-select-name + .select2-container {
+    width: 90% !important;
+  }
+
+  .js-select-item + .select2-container {
+    width: 90% !important;
+  }
+}
+
 
 

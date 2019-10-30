@@ -14,9 +14,9 @@
   &__card {
     position: relative;
     min-width: 256px;
-    max-height: 408px;
-    margin-right: 16px;
-    margin-left: 16px;
+    max-width: 256px;
+    max-height: 415px;
+    margin: 0 auto;
     cursor: pointer;
     overflow: hidden;
     top: 0;
@@ -153,4 +153,10 @@
   padding-top: 148px;
   padding-bottom: 30px;
 }
+
+.b-looking-slider .swiper-slide .swiper-slide-active {
+  display: flex;
+}
+
+
 

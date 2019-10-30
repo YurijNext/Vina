@@ -56,6 +56,7 @@ gulp.task('js', function () {
       'src/libs/jquery/jquery.maskedinput.min.js',
       'src/libs/swiper/swiper.min.js',
       'src/libs/select2/dist/js/select2.js',
+      'src/libs/malihu/jquery.mCustomScrollbar.concat.min.js',
       'src/js/index.js', // Always at the end
     ])
     .pipe(sourcemaps.init())

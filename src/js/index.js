@@ -30,17 +30,14 @@ $(document).ready(function () {
   const initSelects = (function() {
 
     $('.js-select-name').select2({
-      width: '256px',
       placeholder: "Название",
     });
 
     $('.js-select-color').select2({
-      width: '159px',
       placeholder: "Цвет",
     });
 
     $('.js-select-sweetness').select2({
-      width: '159px',
       placeholder: "Сладость",
     });
 
@@ -48,21 +45,60 @@ $(document).ready(function () {
 
   /** Looking section slider **/
   let lookingSlider = new Swiper ('.js-looking-slider', {
-    // Optional parameters
     loop: true,
     slidesPerView: 4,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
     },
-    // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-prev',
       prevEl: '.swiper-button-next',
     },
+    breakpoints: {
+      670: {
+        slidesPerView: 1,
+      },
+      900: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      },
+      1240: {
+        slidesPerView: 3,
+      },
+      1250: {
+        slidesPerView: 4,
+      },
+    }
 
   });
 
+  /** Lists modal **/
 
+  const viewFullList = (function() {
+    $('.b-cats__all').on('click', function(e) {
+      let parent = $(this).parents('.b-cats__group');
+      e.preventDefault();
+      parent.siblings('.b-cats__full').addClass('b-cats__full--active');
+      parent.addClass('b-cats--active');
+      $('.js-close-full').addClass('js-close-full--visible');
+    });
+
+    $('.js-close-full').on('click', function(e) {
+      e.preventDefault();
+      let sibling = $(this).siblings('.b-cats__full');
+      sibling.removeClass('b-cats__full--active');
+      sibling.siblings('.b-cats__group').removeClass('b-cats--active');
+      $('.js-close-full').removeClass('js-close-full--visible');
+    });
+
+  })();
+
+  /** Custom scroll **/
+  $(".b-cats__full").mCustomScrollbar({
+    axis:"y",
+  });
 
 });
