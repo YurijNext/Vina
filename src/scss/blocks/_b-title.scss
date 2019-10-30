@@ -1,0 +1,95 @@
+
+.b-title {
+  @include flex(center);
+  @include align(relative);
+
+  &__box {
+    width: 544px;
+    height: 240px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    &:after {
+      @include pseudo(block, absolute, '01');
+      color: $s-gray;
+      font-family: $latoLight;
+      font-weight: normal;
+      font-size: 200px;
+    }
+    &--border {
+      border: 1px solid $s-gray;
+    }
+  }
+
+  &__text {
+    color: $accent;
+    font-family: $fair-normal;
+    @include font(56, normal);
+    line-height: rem(64);
+    padding-bottom: 46px;
+    position: absolute;
+    white-space: nowrap;
+    &:after {
+      @include pseudo(block, absolute);
+      bottom: 0;
+      left: 0;
+      width: 208px;
+      height: 2px;
+      background-color: $accent;
+    }
+  }
+
+  &__descr {
+    max-width: 450px;
+    margin-left: 32px;
+    color: $text;
+  }
+
+  &__link {
+    font-family: $fair-bold;
+    color: $text;
+    border-bottom: 1px solid $text;
+    @include trs();
+    &:hover {
+      color: $accent;
+      border-color: $accent;
+    }
+  }
+
+  &--right {
+    .b-title__box:after {
+      bottom: 5%;
+      left: 6%;
+    }
+
+    .b-title__text {
+      left: 36%;
+      top: 25%;
+    }
+  }
+
+  &--left {
+    .b-title__box {
+      margin-left: 90px;
+
+      &:after {
+        bottom: 5%;
+        left: 53%;
+      }
+    }
+
+    .b-title__text {
+      left: 0%;
+      top: 25%;
+    }
+  }
+
+}
+
+.b-title__wrap--margin-xl {
+  margin-left: 128px;
+  .b-title__descr {
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+}
