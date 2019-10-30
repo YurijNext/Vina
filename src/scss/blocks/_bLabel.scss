@@ -1,8 +1,6 @@
-.accent-label {
-  font-size: 13px;
+.b-label {
+  @include font(13);
   line-height: 16px;
-  font-family: $mainFont;
-  font-weight: normal;
   color: #fff;
   padding: 4px;
   background-color: $accent;

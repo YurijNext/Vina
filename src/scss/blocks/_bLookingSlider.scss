@@ -1,10 +1,4 @@
-.four-items {
-  &__slider {
-    overflow: hidden;
-    padding-top: 165px;
-    padding-bottom: 100px;
-    position: relative;
-  }
+.b-looking-slider {
 
   &__info {
     position: absolute;
@@ -30,13 +24,13 @@
     &:hover {
       background-color: #fff;
       top: -30px;
-      .four-items__info {
+      .b-looking-slider__info {
         padding-top: 60%;
         top: 0;
         background-color: rgba(255, 255, 255, .65);
       }
 
-      .four-items__details {
+      .b-looking-slider__details {
         background-color: #fff;
         color: $text;
         &:after {
@@ -101,10 +95,10 @@
     width: 84px;
     height: 15px;
   }
-  
+
 }
 
-.form-items__rp, .form-items__gp, .form-items__vivino {
+.b-looking-slider__rp, .b-looking-slider__gp, .b-looking-slider__vivino {
   font-size: 16px;
   margin-bottom: 0;
   strong {
@@ -112,13 +106,13 @@
   }
 }
 
-.form-items__location {
+.b-looking-slider__location {
   font-size: 12px;
   font-weight: 700;
   margin-top: 27px;
 }
 
-.four-items__buttons .swiper-button-prev, .swiper-container-rtl .swiper-button-prev {
+.b-looking-slider__buttons .swiper-button-prev, .swiper-container-rtl .swiper-button-prev {
   background-image: url("../img/arrow-right.svg");
   transform: rotate(180deg);
   opacity: 0.65;
@@ -129,7 +123,7 @@
   }
 }
 
-.four-items__buttons .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+.b-looking-slider__buttons .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
   background-image: url("../img/arrow-right.svg");
   right: 0;
   opacity: 0.65;
@@ -140,20 +134,23 @@
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
-  bottom: 40px;
+  bottom: 0;
 }
 
-.four-items-pagination .swiper-pagination-bullet {
+.b-looking-slider-pagination .swiper-pagination-bullet {
   width: 6px;
   height: 6px;
   background: rgba(39, 19, 23, 0.1);
   opacity: 1;
 }
 
-.four-items-pagination .swiper-pagination-bullet-active {
+.b-looking-slider-pagination .swiper-pagination-bullet-active {
   background: #6E6660;
   opacity: 1;
 }
 
-
+.b-looking-slider .swiper-container {
+  padding-top: 148px;
+  padding-bottom: 30px;
+}
 

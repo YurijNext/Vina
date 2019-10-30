@@ -47,7 +47,7 @@ $(document).ready(function () {
   })();
 
   /** Looking section slider **/
-  let lookingSlider = new Swiper ('.js-b-looking__slider', {
+  let lookingSlider = new Swiper ('.js-looking-slider', {
     // Optional parameters
     loop: true,
     slidesPerView: 4,
