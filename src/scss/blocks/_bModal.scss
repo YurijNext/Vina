@@ -93,15 +93,12 @@
   display: block;
 }
 
-.b-cats__item--border{
-  padding-left: 24px;
-  border-left: 1px solid #C4C4C4;
-}
-
 .b-cats__full .b-cats__item {
   margin-right: 45px;
+  margin-bottom: 20px;
   width: 20%;
 }
+
 
 .mCustomScrollBox {
   width: 100%;
@@ -110,6 +107,8 @@
 
 .mCSB_inside>.mCSB_container {
   display: flex;
+  padding-left: 24px;
+  border-left: 1px solid #c4c4c4;
 }
 
 .mCSB_scrollTools .mCSB_draggerContainer {
@@ -134,4 +133,112 @@
 
 .mCS-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
   background: rgba(39, 19, 23, 0.1);
+}
+
+@media only screen and (max-width: 1150px) {
+  .b-cats--active {
+    width: 25%;
+  }
+
+  .b-cats__full--active {
+    padding-left: 25%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .mCSB_inside>.mCSB_container {
+    flex-wrap: wrap;
+
+  }
+
+  .b-cats--active {
+    width: 30%;
+  }
+
+  .b-cats__full--active {
+    padding-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .b-cats--active {
+    width: 40%;
+  }
+
+  .b-cats__full--active {
+    padding-left: 40%;
+  }
+
+  .b-cats__full .b-cats__item {
+    margin-right: 0;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .b-cats--active {
+    width: 50%;
+  }
+
+  .b-cats__full--active {
+    padding-left: 50%;
+  }
+
+  .b-cats__full .b-cats__item {
+    text-align: center;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .b-cats--active {
+    width: 50%;
+    text-align: left;
+    padding-right: 5px;
+    .b-cats__link {
+      font-size: 0.8rem;
+      white-space: normal;
+    }
+  }
+
+  .b-cats__full--active {
+    padding-left: 50%;
+    .b-cats__link {
+      font-size: 0.8rem;
+    }
+  }
+
+  .b-cats__full .b-cats__item {
+    text-align: center;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .b-cats--active {
+    width: 55%;
+    .b-cats__link {
+      font-size: 0.8rem;
+      white-space: normal;
+    }
+  }
+
+  .b-cats__full--active {
+    padding-left: 55%;
+    .b-cats__link {
+      font-size: 0.8rem;
+    }
+  }
+
+  .b-cats__full .b-cats__item {
+    text-align: center;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .mCSB_inside>.mCSB_container {
+    padding-left: 10px;
+  }
 }

@@ -12,7 +12,7 @@
   background-color: $s-gray;
 
   &__posts {
-    margin-top: 105px;
+    margin-top: 111px;
     margin-bottom: 142px;
   }
 
@@ -25,7 +25,7 @@
 
   &__image {
     width: 33%;
-    margin-right: 128px;
+    margin-right: 110px;
   }
 
   &__text {
@@ -66,7 +66,7 @@
   &__descr {
     font-size: 14px;
     color: $text;
-    margin-bottom: 18px;
+    margin-bottom: 23px;
   }
 
   &__textitem {
@@ -84,6 +84,10 @@
       top: 50%;
     }
   }
+}
+
+.b-about__title .b-title__text {
+  top: 26% !important;
 }
 
 
@@ -110,8 +114,8 @@
 }
 
 @media only screen and (min-width: 1140px) {
-  .b-about .b-title__text {
-    right: 6%;
+  .b-about__title .b-title__text {
+    right: 9% !important;
   }
 }
 

@@ -7,8 +7,17 @@
   }
 }
 
+.b-looking .b-title__box-wrap {
+  margin-bottom: 0;
+}
+
+.b-looking__title {
+  margin-bottom: 0;
+}
+
 @media only screen and (min-width: 1140px) {
   .b-looking .b-title__text {
-    right: -13%;
+    right: -12% !important;
+    top: 27% !important;
   }
 }
