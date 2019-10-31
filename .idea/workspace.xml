@@ -5,19 +5,37 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Lato-Light/Lato-Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/Lato-Light/Lato-Light.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Lato-Light/Lato-Light.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/Lato-Light/Lato-Light.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Lato-Light/Lato-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/Lato-Light/Lato-Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Lato-Light/Lato-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/Lato-Light/Lato-Light.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Lato-Light/Lato-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/Lato-Light/Lato-Light.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Lato-Regular/Lato-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/Lato-Regular/Lato-Regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Lato-Regular/Lato-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/Lato-Regular/Lato-Regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Lato-Regular/Lato-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/Lato-Regular/Lato-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Lato-Regular/Lato-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/Lato-Regular/Lato-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/Lato-Regular/Lato-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/Lato-Regular/Lato-Regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/arrow-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/arrow-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/arrow-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/arrow-right.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/scripts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/blocks/_header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/_header.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/blocks/index-page/_bAbout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/index-page/_bAbout.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/blocks/index-page/_bBanner.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/index-page/_bBanner.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/blocks/index-page/_bCats.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/index-page/_bCats.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/modules/_index-page.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/modules/_index-page.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/_b-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_b-title.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_bFooter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_bFooter.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/_bHeader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_bHeader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_bLabel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_bLabel.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/_bLookingSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_bLookingSlider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/_bModal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_bModal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/index-page/_bAbout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/index-page/_bAbout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/index-page/_bBanner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/index-page/_bBanner.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/blocks/index-page/_bCats.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/index-page/_bCats.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/index-page/_bLooking.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/index-page/_bLooking.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/helpers/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/helpers/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/ui/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/ui/_fonts.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,6 +149,7 @@
       <workItem from="1572337250228" duration="26733000" />
       <workItem from="1572505812686" duration="3898000" />
       <workItem from="1572511793823" duration="3508000" />
+      <workItem from="1572521127846" duration="14561000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Сделал адаптив главной + прототип всплывающего окна&quot;">
       <created>1572451262258</created>
@@ -146,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572451619149</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Правки">
+      <created>1572521262790</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572521262791</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +194,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Commit&quot;" />
     <MESSAGE value="&quot;Сделал адаптив главной + прототип всплывающего окна&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Сделал адаптив главной + прототип всплывающего окна&quot;" />
+    <MESSAGE value="Правки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Правки" />
   </component>
 </project>

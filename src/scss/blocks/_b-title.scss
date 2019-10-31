@@ -22,7 +22,7 @@
       font-size: 200px;
     }
     &--border {
-      border: 1px solid $s-gray;
+      border: 1px solid #EFECEA;
     }
   }
 
@@ -45,19 +45,35 @@
   }
 
   &__descr {
+    font-family: $latoLight;
     max-width: 450px;
     margin-left: 32px;
     color: $text;
+
   }
 
   &__link {
     font-family: $fair-bold;
     color: $text;
-    border-bottom: 1px solid $text;
-    @include trs();
+    position: relative;
+    display: inline-block;
+    &:after {
+      @include pseudo();
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: $accent;
+      transform: scaleX(0);
+      transform-origin: 100% 0;
+      transition: transform .5s cubic-bezier(1,.07,.05,.95),-webkit-transform .5s cubic-bezier(1,.07,.05,.95);
+    }
+    &:hover:after {
+      transform: scaleX(1);
+      transform-origin: 0 100%;
+    }
     &:hover {
       color: $accent;
-      border-color: $accent;
     }
   }
 

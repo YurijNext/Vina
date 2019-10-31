@@ -7,7 +7,8 @@
     height: 100%;
     width: 100%;
     z-index: 1;
-    padding: 0 16px;
+    padding-right: 16px;
+    padding-left: 0;
     @include trs(all, .2s);
   }
 
@@ -22,9 +23,11 @@
     top: 0;
     @include trs(all, .2s);
     &:hover {
+      box-shadow: 0px 5px 10px rgba(39, 19, 23, 0.1);
       background-color: #fff;
       top: -30px;
       .b-looking-slider__info {
+        padding-left: 16px;
         padding-top: 60%;
         top: 0;
         background-color: rgba(255, 255, 255, .65);
@@ -32,7 +35,6 @@
 
       .b-looking-slider__details {
         background-color: #fff;
-        color: $text;
         &:after {
           content: "";
           display: block;
@@ -57,7 +59,7 @@
   }
 
   &__title {
-    font-family: $mainFont;
+    font-family: $latoLight;
     @include font(16, 300);
     color: $accent;
     margin-bottom: 20px;
@@ -72,10 +74,12 @@
     @include font(14);
     font-family: $fair-bold;
     line-height: 24px;
+    letter-spacing: 0.4px;
     color: $accent;
     width: 100%;
     background-color: $s-gray;
     z-index: 2;
+    cursor: pointer;
     //@include trs(all, .2s);
     &:before {
       @include pseudo();
@@ -85,6 +89,12 @@
       top: 50%;
       left: 0;
       @include trs(all, .2s);
+    }
+    &:hover {
+      color: $text;
+      &:before {
+        background-color: $text;
+      }
     }
   }
 
@@ -99,6 +109,7 @@
 }
 
 .b-looking-slider__rp, .b-looking-slider__gp, .b-looking-slider__vivino {
+  font-family: $latoLight;
   font-size: 16px;
   margin-bottom: 0;
   strong {
@@ -107,25 +118,28 @@
 }
 
 .b-looking-slider__location {
+  color: $accent;
+  font-weight: 600;
   font-size: 12px;
-  font-weight: 700;
   margin-top: 27px;
 }
 
 .b-looking-slider__buttons .swiper-button-prev, .swiper-container-rtl .swiper-button-prev {
-  background-image: url("../img/arrow-right.svg");
+  background-image: url("../img/arrow-left.svg");
+  background-size: contain;
   transform: rotate(180deg);
   opacity: 0.65;
-  left: 0;
+  left: 58%;
   @include trs(all);
   &:hover {
     opacity: 1;
   }
 }
 
-.b-looking-slider__buttons .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
-  background-image: url("../img/arrow-right.svg");
-  right: 0;
+.b-looking-slider__buttons .swiper-button-next, .swiper-container-rtl .swiper-button-next {
+  background-image: url("../img/arrow-left.svg");
+  background-size: contain;
+  left: 0;
   opacity: 0.65;
   @include trs(all);
   &:hover {
@@ -147,6 +161,8 @@
 .b-looking-slider-pagination .swiper-pagination-bullet-active {
   background: #6E6660;
   opacity: 1;
+  width: 8px;
+  height: 8px;
 }
 
 .b-looking-slider .swiper-container {
@@ -158,5 +174,10 @@
   display: flex;
 }
 
+@media only screen and (max-width: 570px) {
+  .b-looking-slider__buttons {
+    top: 30px;
+  }
+}
 
 

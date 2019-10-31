@@ -1,15 +1,15 @@
-.b-main {
-  height: 850px;
-  background-image: url("../img/index-page/1-banner/bg.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-}
+//.b-main {
+//  height: 850px;
+//  background-image: url("../img/index-page/1-banner/bg.jpg");
+//  background-position: center center;
+//  background-repeat: no-repeat;
+//  background-size: cover;
+//  color: #fff;
+//}
 
 .b-main .container {
-  position: relative;
   height: 100%;
+  border-bottom: none;
 }
 
 .b-main__title {
@@ -19,7 +19,7 @@
   letter-spacing: 3px;
   max-width: 928px;
   margin: 0 auto;
-  padding-top: 24%;
+  padding-top: 12%;
   margin-bottom: 9%;
   text-align: center;
   font-weight: 300;
@@ -107,12 +107,16 @@
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
   background-color: #EFECEA !important;
+  &:before, &:after {
+    display: block;
+  }
 }
 
 .select2-results__option {
   position: relative;
 
   &:before, &:after {
+    display: none;
     content: "";
     position: absolute;
     top: 50%;
@@ -120,6 +124,7 @@
     width: 13px;
     height: 1px;
     background-color: #000;
+    @include trs();
   }
 
   &:after {
@@ -268,8 +273,10 @@
 
 @media only screen and (max-width: 400px) {
   .b-main__title {
-    padding-top: 120px;
+    padding-top: 0;
     font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 30px;
   }
 
   .js-select-name + .select2-container {
