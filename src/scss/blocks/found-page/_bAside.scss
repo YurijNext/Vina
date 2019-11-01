@@ -1,0 +1,150 @@
+.b-aside {
+  padding-top: 9px;
+  width: 31%;
+  max-width: 256px;
+  min-width: 256px;
+  margin-right: 32px;
+
+  .b-aside__search-wrap {
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 15px;
+    background-color: #F6F6F6;
+  }
+
+  .b-aside__search {
+    background-color: #F6F6F6;
+  }
+
+  .js-field-erase {
+    left: 90%;
+    transform: translateY(-100%);
+  }
+}
+
+.b-aside {
+  &__filters {
+    margin-top: 31px;
+  }
+
+  &__count-wrap {
+    margin-bottom: 32px;
+  }
+
+  &__count {
+    @include font(14);
+    color: $text;
+  }
+
+  &__throw {
+    width: 100%;
+    color: $accent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__throw-image {
+    margin-right: 15px;
+  }
+
+  &__filters-wrap {
+    padding-right: 18px;
+  }
+
+  &__filters-item {
+    cursor: pointer;
+    span {
+      height: 100%;
+    }
+  }
+
+  &__drop {
+    padding-left: 15px;
+    border-left: 1px solid $accent;
+    margin-top: 16px;
+    display: none;
+  }
+
+  &__drop-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+
+  &__drop-btn {
+    display: flex;
+    align-items: center;
+    color: $text;
+    cursor: pointer;
+    @include trs();
+    &:hover {
+      color: $accent;
+    }
+    &:hover .b-aside__btn-image {
+      path {
+        fill: $accent;
+      }
+    }
+  }
+
+  &__btn-image {
+    margin-left: 20px;
+    path {
+      @include trs();
+    }
+  }
+
+  &__filters-item {
+    font-family: $fair-normal;
+    margin-bottom: 24px;
+  }
+
+  &__filter-label {
+    color: $text;
+    cursor: pointer;
+    strong {
+      font-family: $mainFont;
+      color: $accent;
+      padding-left: 32px;
+      position: relative;
+      display: inline-block;
+      &:before {
+        @include pseudo();
+        width: 12px;
+        height: 1px;
+        background-color: $text;
+        left: 8px;
+        top: 55%;
+      }
+    }
+  }
+
+  &__filter-check {
+    position: absolute;
+    left: -9999px;
+    &:checked ~ .b-aside__filter-label {
+      color: $accent;
+      font-weight: 500;
+    }
+
+    &:checked ~ .b-aside__filter-label:before {
+      background-color: $accent;
+    }
+
+    &:checked ~ .b-aside__check-image {
+      display: block;
+    }
+    &:not(:checked) + .b-aside__check-image {
+      display: none;
+    }
+  }
+
+  &__check-image {
+    display: none;
+  }
+}
+
+.button-weight {
+  font-family: $fair-bold;
+}

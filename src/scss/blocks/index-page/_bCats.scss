@@ -75,6 +75,9 @@
       transform: scaleX(1);
       transform-origin: 0 100%;
     }
+    &:hover {
+      font-weight: 600;
+    }
 
     strong {
       font-weight: 600;

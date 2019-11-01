@@ -1,0 +1,137 @@
+.b-goods {
+  width: 74%;
+  &__top-pagin {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #C4C4C4;;
+  }
+
+  &__pagin-block {
+    display: flex;
+    color: $text;
+  }
+
+  &__current-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 13px;
+  }
+
+  &__current-number {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    text-align: center;
+    color: $text;
+    margin: 0 9px;
+  }
+
+  &__prev-page, &__next-page {
+    cursor: pointer;
+    path {
+      @include trs();
+    }
+    &:hover {
+      path {
+        stroke: $accent;
+      }
+    }
+  }
+
+  &__mark-group {
+    margin-top: 32px;
+    margin-bottom: 56px;
+  }
+
+  &__cards-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__cards {
+    margin-top: 20px;
+  }
+
+  &__cards-big {
+    display: flex;
+    margin-top: 43px;
+    margin-bottom: 40px;
+  }
+
+  &__cards--last {
+    margin-top: 42px;
+  }
+
+  &__bottom-pagin {
+    margin-top: 68px;
+  }
+
+  &__pag-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  &__pag-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 24px;
+  }
+
+  &__pag-item {
+    margin: 0 7px;
+  }
+
+  &__pag-link {
+    color: $text;
+    @include trs();
+    &:hover {
+      color: $accent;
+    }
+  }
+
+  &__pag-next {
+    cursor: pointer;
+    circle {
+      @include trs();
+    }
+    path {
+      @include trs();
+    }
+
+    &:hover {
+      circle {
+        fill: $accent;
+      }
+      path {
+        fill: #fff;
+      }
+    }
+  }
+
+
+  &__pag-prev {
+    transform: rotate(180deg);
+  cursor: pointer;
+    circle {
+      @include trs();
+    }
+    path {
+      @include trs();
+    }
+
+    &:hover {
+      circle {
+        fill: $accent;
+      }
+      path {
+        fill: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.b-bradcramps {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 21px;
+  margin-bottom: 61px;
+
+  &__item {
+    padding-left: 22px;
+    position: relative;
+
+    &:before {
+      content: "/";
+      position: absolute;
+      left: 8px;
+      top: -1px;
+    }
+
+    &:first-child {
+      padding-left: 0;
+      &:before {
+        display: none
+      }
+    }
+  }
+
+  &__link {
+    @include font(14);
+    display: block;
+    color: $text;
+    cursor: pointer;
+    @include trs();
+    &:hover {
+      color: $accent;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &--disabled {
+      color: $accent;
+      cursor: default;
+    }
+  }
+}

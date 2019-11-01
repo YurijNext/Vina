@@ -1,0 +1,27 @@
+.mark {
+  display: inline-block;
+  @include font(13);
+  font-family: $latoLight;
+  color: #fff;
+  background-color: $accent;
+  padding: 0 40px 0 16px;
+  position: relative;
+  margin-right: 20px;
+  cursor: pointer;
+  &:after, &:before {
+    @include pseudo();
+    top: 50%;
+    right: 15px;
+    width: 13px;
+    height: 1px;
+    background-color: #fff;
+  }
+
+  &:after {
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  &:before {
+    transform: translateY(-50%) rotate(-45deg);
+  }
+}

@@ -44,3 +44,14 @@ textarea {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.found {
+  background-color: #F6F6F6;
+}
+
+.found__content {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  display: flex;
+  position: relative;
+}
