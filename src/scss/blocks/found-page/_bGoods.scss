@@ -1,5 +1,6 @@
 .b-goods {
   width: 74%;
+  @include trs();
   &__top-pagin {
     display: flex;
     justify-content: space-between;
@@ -115,6 +116,7 @@
   }
 
 
+
   &__pag-prev {
     transform: rotate(180deg);
   cursor: pointer;
@@ -133,5 +135,85 @@
         fill: #fff;
       }
     }
+  }
+}
+
+.b-goods--shift-right {
+  transform: translateX(280px) !important;
+}
+
+.js-filters {
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+  .js-filters {
+    display: none;
+  }
+
+  .b-goods {
+    transform: translateX(0) !important;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .b-goods {
+    @include trs();
+    width: 100%;
+  }
+
+  .js-filters {
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 950px) {
+  .b-goods__cards-list {
+    flex-wrap: wrap;
+  }
+
+  .b-goods__cards-big {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .b-card-big {
+    margin-bottom: 40px;
+    margin-right: 0 !important;
+  }
+
+  .b-goods__cards-item {
+    margin-right: 20px;
+    margin-bottom: 40px;
+    width: 46%;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .b-goods__cards-list {
+    flex-wrap: wrap;
+  }
+
+  .b-goods__cards-item {
+    margin-right: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+  .b-goods__amount {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .b-goods--shift-right {
+    transform: translateX(220px) !important;
   }
 }
