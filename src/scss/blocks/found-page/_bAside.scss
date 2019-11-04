@@ -169,6 +169,12 @@
   }
 }
 
+@media only screen and (max-width: 660px) {
+  .js-field-erase {
+    display: none !important;
+  }
+}
+
 
 @media only screen and (max-width: 400px) {
   .b-aside {

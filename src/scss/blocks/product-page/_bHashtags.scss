@@ -1,0 +1,50 @@
+.b-hashtags {
+  padding-top: 72px;
+  background: #F6F6F6;
+  &__title {
+    font-family: $fair-normal;
+    font-weight: normal;
+    @include font(28);
+    line-height: rem(40);
+    color: $accent;
+    padding-right: 112px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 40px;
+    &:after {
+      @include pseudo();
+      width: 96px;
+      height: 1px;
+      background-color: $accent;
+      top: 55%;
+      right: 0;
+    }
+  }
+
+  &__mark-group {
+    display: flex;
+    margin-bottom: 86px;
+    flex-wrap: wrap;
+    margin-right: 70px;
+  }
+
+  &__mark-item {
+    margin-right: 14px;
+    margin-bottom: 16px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__group-wrap {
+    display: flex;
+  }
+
+  &__fits {
+    flex-wrap: nowrap;
+  }
+
+  &__testie {
+    margin-right: 0;
+  }
+}

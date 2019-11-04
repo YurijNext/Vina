@@ -25,3 +25,28 @@
     transform: translateY(-50%) rotate(-45deg);
   }
 }
+
+.mark--default {
+  position: relative;
+  &:after, &:before {
+    display: none;
+  }
+
+  margin-right: 0;
+  padding: 0 16px;
+
+  strong {
+    position: relative;
+    padding-left: 24px;
+    display: inline-block;
+
+    &:before {
+      @include pseudo();
+      width: 8px;
+      height: 1px;
+      background-color: #fff;
+      top: 50%;
+      left: 8px;
+    }
+  }
+}

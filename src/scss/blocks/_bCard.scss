@@ -18,6 +18,10 @@
       background-color: rgba(255, 255, 255, .65);
     }
 
+    .b-card__title {
+      margin-bottom: 20px;
+    }
+
     .b-card__details {
       background-color: #fff;
       &:after {
@@ -58,7 +62,7 @@
     font-family: $latoLight;
     @include font(16, 300);
     color: $accent;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   &__details {
