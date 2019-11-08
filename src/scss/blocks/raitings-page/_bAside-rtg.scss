@@ -1,0 +1,30 @@
+.bAside-rtg {
+  min-width: 256px;
+  margin-right: 32px;
+
+  &__group-name {
+    font-size: 16px;
+    font-family: 'PlayfairDisplay Regular', sans-serif;;
+    padding: 12px 20px;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #C4C4C4 ;
+    color: #271317;
+  }
+
+  &__btn {
+    font-size: 16px;
+    font-family: 'PlayfairDisplay Regular', sans-serif;
+    padding: 12px 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #C4C4C4 ;
+    cursor: pointer;
+    text-align: left;
+    color: #271317;
+  }
+
+
+}

@@ -48,3 +48,16 @@
     margin-right: 0;
   }
 }
+
+.b-hashtags__testie .b-hashtags__mark-item {
+  white-space: normal;
+}
+
+@media only screen and (max-width: 680px) {
+  .b-hashtags__title {
+    padding-right: 0;
+    &:after {
+      display: none;
+    }
+  }
+}

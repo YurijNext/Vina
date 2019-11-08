@@ -4,33 +4,40 @@ section.b-main
 
         form.b-main__select-vine
             .b-main__select-group
-                select.js-select-name.js-select-name.b-main__select.b-main__select--name(name="name")
-                    option
-                    option(value="name") Название
-                    option(value="name") Название
-                    option(value="name") Название
+                .b-main__input-group.input-pseudo
+                    input(type="text" name="name" placeholder="Название" autocomplete="off").js-open-drop.b-main__input.b-main__input--active
+                    .b-main__dropdown
+                        span.b-main__dropdown-title Название
+                        span.b-main__dropdown-title Название 1
+                        span.b-main__dropdown-title Название 2
+                        span.b-main__dropdown-title Название 3
+                        span.b-main__dropdown-title Название 4
 
+                .b-main__group-min
+                    .b-main__field.js-open-drop Цвет
+                    .b-main__dropdown
+                        span.b-main__dropdown-title Белое
+                        span.b-main__dropdown-title Красное
+                        span.b-main__dropdown-title Розовое
+                        span.b-main__dropdown-title Оранжевое
 
-                select.js-select-color.js-select-item.b-main__select.b-main__select--color(name="color")
-                    option
-                    option(value="color") Белое
-                    option(value="color") Красное
-                    option(value="color") Розовое
-                    option(value="color") Оранжевое
+                .b-main__group-min
+                    .b-main__field.js-open-drop Сладость
+                    .b-main__dropdown
+                        span.b-main__dropdown-title Белое
+                        span.b-main__dropdown-title Красное
+                        span.b-main__dropdown-title Розовое
+                        span.b-main__dropdown-title Оранжевое
 
-                select.js-select-sweetness.js-select-item.b-main__select.b-main__select--sweetness(name="sweetness")
-                    option
-                    option(value="sweetness") Белое
-                    option(value="sweetness") Красное
-                    option(value="sweetness") Розовое
-                    option(value="sweetness") Оранжевое
+                .b-main__group-min
+                    .b-main__field.js-open-drop Подходит к
+                    .b-main__dropdown
+                        span.b-main__dropdown-title Рыба
+                        span.b-main__dropdown-title Белое мясо
+                        span.b-main__dropdown-title Сыры
+                        span.b-main__dropdown-title Фрукты
+                        span.b-main__dropdown-title Десерты
 
-                select.js-select-sweetness.js-select-item.b-main__select.b-main__select--sweetness(name="sweetness")
-                    option
-                    option(value="sweetness") Белое
-                    option(value="sweetness") Красное
-                    option(value="sweetness") Розовое
-                    option(value="sweetness") Оранжевое
 
                 button(type="submit").b-main__submit Найти вино!
 

@@ -1,0 +1,54 @@
+.bRaitings-text {
+  display: flex;
+
+  &__left {
+    width: 56%;
+  }
+
+  &__wrap {
+    padding-right: 16px;
+    border-right: 1px solid #C4C4C4;
+  }
+
+  &__photo {
+    width: 44%;
+  }
+
+  &__title {
+    font-size: 28px;
+    font-family: 'PlayfairDisplay Regular', sans-serif;
+    line-height: rem(40);
+    color: #271317;
+  }
+
+  &__link {
+    font-family: 'Lato Light', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #6E6660;
+    margin-bottom: 40px;
+    display: block;
+  }
+
+  &__descr {
+    color: $text;
+    margin-bottom: 20px;
+    line-height: rem(20);
+  }
+
+  &__img-wrapper {
+    width: 272px;
+    margin-bottom: 24px;
+    margin-left: 95px;
+    margin-top: 40px;
+  }
+
+  &__name {
+    @include font(56);
+    display: block;
+    line-height: rem(64);
+    color: $text;
+    font-family: $fair-normal;
+    margin-left: 15px;
+  }
+}

@@ -51,6 +51,62 @@
   }
 }
 
+.b-main__input-group {
+  position: relative;
+  color: #6e6660;
+}
+
+
+
+
+
+
+
+
+
+
+
+.input-pseudo {
+  position: relative;
+  &:after {
+    @include pseudo();
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    right: 18px;
+    background-image: url('../img/chevron_down.svg');
+    transform: translateY(-50%);
+  }
+}
+.input-pseudo--active {
+  &::after {
+    transform: translateY(-50%) rotate(180deg);
+  }
+}
+
+
+
+
+
+.b-main__input {
+  width: 256px;
+  height: 48px;
+  border: none;
+  background-color: #fff;
+  border-right: 1px solid #C4C4C4;
+  padding-left: 16px;
+  color: #6e6660;
+  @include font(16);
+
+  &::placeholder {
+    font-family: $fair-normal;
+    color: $text;
+    @include font(16);
+  }
+}
+
+
+
 .b-main__scroll {
   display: block;
   position: absolute;
@@ -239,15 +295,12 @@
 
   .b-main__select-group {
     flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
+    max-width: 400px;
   }
 
-  .js-select-name + .select2-container {
-    width: 50% !important;
-  }
-
-  .js-select-item + .select2-container {
-    width: 50% !important;
+  .b-main__input, .b-main__input-group, .b-main__group-min {
+    width: 100%;
   }
 
   .b-main__submit {
@@ -260,6 +313,9 @@
 @media only screen and (max-width: 600px) {
   .b-main__title {
     font-size: 2.5rem;
+    span:first-child {
+      margin-bottom: 4px;
+    }
   }
 
   .js-select-name + .select2-container {

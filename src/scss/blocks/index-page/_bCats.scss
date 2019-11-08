@@ -163,10 +163,22 @@
   .b-cats__group {
     min-height: 0;
     text-align: center;
+    min-width: 100%;
   }
 
   .b-cats__list {
     margin-bottom: 30px;
   }
+
+  .b-cats__categories {
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+  }
+
+  .b-cats__photo img {
+    display: none;
+  }
+
+
 }
 

@@ -52,7 +52,7 @@ $(document).ready(function () {
       sibling.siblings('.b-cats__group').removeClass('b-cats--active');
       closeBtn.removeClass('js-close-full--visible');
     });
-  })();
+  });
 
   const viewList = (function() {
     const openBtn = $('.b-aside__drop-btn'),
@@ -121,22 +121,41 @@ $(document).ready(function () {
 
   })();
 
-  /** Index page banner select group (Plugin: Select 2) **/
-  const initSelects = (function() {
+  /**  **/
+  const dropdown = (function() {
+    const openBtn = $('.js-open-drop'),
+          dropdown = $('.b-main__dropdown'),
+          item = $('.b-main__dropdown-title'),
+          input = $('.b-main__input');
 
-    $('.js-select-name').select2({
-      placeholder: "Название",
+    openBtn.on('click', function() {
+      let sibling = $(this).siblings('.b-main__dropdown');
+
+      openBtn.not($(this)).siblings('.b-main__dropdown').removeClass('b-main__dropdown--open');
+      openBtn.not($(this)).parents('.input-pseudo').removeClass('input-pseudo--active');
+
+      openBtn.not($(this)).removeClass('current');
+
+      sibling.toggleClass('b-main__dropdown--open');
+      $(this).toggleClass('current');
     });
 
-    $('.js-select-color').select2({
-      placeholder: "Цвет",
+    item.on('click', function() {
+      $(this).parents('.b-main__dropdown').siblings('.js-open-drop').html($(this).text());
+      dropdown.removeClass('b-main__dropdown--open');
+      $(this).parents('.b-main__dropdown').siblings('.b-main__field').toggleClass('current');
     });
 
-    $('.js-select-sweetness').select2({
-      placeholder: "Сладость",
+    $('.b-main__input').on('click', function() {
+      $(this).parents('.input-pseudo').toggleClass('input-pseudo--active')
     });
 
-  })();
+    $('.b-main__input-group .b-main__dropdown-title').on('click', function() {
+      input.val($(this).text());
+      $('.input-pseudo').toggleClass('input-pseudo--active');
+    })
+
+   })();
 
   /** Looking section slider **/
   let lookingSlider = new Swiper ('.js-looking-slider', {
@@ -178,5 +197,6 @@ $(document).ready(function () {
   $(".full-list__wrap").mCustomScrollbar({
     axis:"y",
   });
+
 
 });

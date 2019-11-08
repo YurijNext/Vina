@@ -1,0 +1,95 @@
+.b-main__dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  z-index: 9;
+}
+
+.b-main__dropdown--open {
+  display: flex;
+  border-top: 1px solid #C4C4C4;
+}
+
+.b-main__dropdown-title {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  cursor: pointer;
+  color: $accent;
+  position: relative;
+  padding-right: 40px;
+  &:hover {
+    background-color: #efecea;
+    &::after {
+      display: block;
+    }
+
+    &::before {
+      display: block;
+    }
+  }
+  &::after, &::before {
+    @include pseudo();
+    display: none;
+    width: 15px;
+    height: 1px;
+    background-color: #C4C4C4;
+    right: 20px;
+    top: 50%;
+  }
+
+  &::after {
+    transform: translateY(-50%) rotate(90deg);
+  }
+}
+
+.js-open-drop {
+  position: relative;
+  padding-right: 30px;
+  &:after {
+    @include pseudo();
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    right: 18px;
+    background-image: url('../img/chevron_down.svg');
+    transform: translateY(-50%);
+  }
+}
+
+.current {
+  font-family: $fair-bold;
+  &::placeholder {
+    font-family: $fair-bold;
+  }
+  &:after {
+    transform: translateY(-50%) rotate(180deg);
+  }
+}
+
+.b-main__field {
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid #C4C4C4;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.b-main__group-min {
+  width: 159px;
+  height: 48px;
+  padding-left: 16px;
+  background-color: #fff;
+  color: $text;
+  font-family: $fair-normal;
+  position: relative;
+}

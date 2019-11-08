@@ -87,7 +87,7 @@
     }
 
     .b-title__text {
-      right: 0%;
+      right: 0;
       top: 25%;
     }
   }
@@ -102,7 +102,7 @@
     }
 
     .b-title__text {
-      left: 0%;
+      left: 0;
       top: 25%;
     }
   }
@@ -170,43 +170,94 @@
   }
 }
 
-@media only screen and (max-width: 640px) {
-  .b-title--right, .b-title--left {
-    .b-title__box-wrap {
-      padding: 0;
-    }
+@media only screen and (max-width: 768px) {
+  .b-title__box-wrap {
+    padding-right: 0;
+    padding-left: 40px;
   }
 
   .b-title__text {
+    right: 100% !important;
+    transform: translateX(100%);
+    padding-bottom: 30px;
     font-size: 3rem;
-    padding-bottom: 20px;
+  }
+
+  .b-title--right .b-title__box:after {
+    left: 100% !important;
+    transform: translateX(-100%);
+  }
+
+  .b-title--left .b-title__box-wrap {
+    padding-left: 40px;
+  }
+
+  .b-title--left .b-title__box:after {
+    right: 0 !important;
   }
 }
 
-@media only screen and (min-width: 540px) {
-  .b-title__text:after {
-    width: 208px;
-  }
-}
-
-@media only screen and (max-width: 540px) {
-  .b-title--right, .b-title--left {
-    .b-title__box-wrap {
-      width: 100%;
-    }
+@media only screen and (max-width: 530px) {
+  .b-title {
+    width: 100%;
   }
 
-  .b-title__box {
-    width: 100% !important;
-  }
-}
-
-@media only screen and (max-width: 540px) {
   .b-title__text {
     font-size: 2.5rem;
     padding-bottom: 20px;
   }
+
+  .b-title__box-wrap {
+    padding-right: 0 !important;
+    width: 100%;
+  }
+
+  .b-title__box {
+    width: 100%;
+    &:after {
+      font-size: 150px;
+    }
+  }
 }
+
+
+//@media only screen and (max-width: 640px) {
+//  .b-title--right, .b-title--left {
+//    .b-title__box-wrap {
+//      padding: 0;
+//    }
+//  }
+//
+//  .b-title__text {
+//    font-size: 3rem;
+//    padding-bottom: 20px;
+//  }
+//}
+//
+//@media only screen and (min-width: 540px) {
+//  .b-title__text:after {
+//    width: 208px;
+//  }
+//}
+//
+//@media only screen and (max-width: 540px) {
+//  .b-title--right, .b-title--left {
+//    .b-title__box-wrap {
+//      width: 100%;
+//    }
+//  }
+//
+//  .b-title__box {
+//    width: 100% !important;
+//  }
+//}
+//
+//@media only screen and (max-width: 540px) {
+//  .b-title__text {
+//    font-size: 2.5rem;
+//    padding-bottom: 20px;
+//  }
+//}
 
 
 
