@@ -1,0 +1,45 @@
+.not-found {
+  background-color: #F6F6F6;
+  .b-bradcramps {
+    margin-bottom: 0;
+  }
+
+  &__title {
+    font-size: 28px;
+    font-family: 'PlayfairDisplay Regular', serif;
+    line-height: 40px;
+    color: #271317;
+    font-weight: normal;
+    margin-bottom: 16px;
+  }
+
+  &__descr {
+    font-family: 'Lato Light', sans-serif;
+    color: #271317;
+    max-width: 425px;
+    text-align: center;
+    margin-bottom: 41px;
+  }
+
+  &__btn {
+    font-family: 'PlayfairDisplay Bold', serif;
+    letter-spacing: 0.4px;
+    color: #271317;
+    padding: 12px 28px;
+    border: 1px solid #271317;
+    cursor: pointer;
+    transition: all .3s ease-out;
+
+    &:hover {
+      color: #fff;
+      background-color: #271317;
+    }
+  }
+}
+
+.not-found__error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}

@@ -5,12 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/modules/raitings-page/raitings.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/modules/raitings-page/raitings.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/blocks/index-page/_bCats.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/index-page/_bCats.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_bModal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_bModal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +38,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pug/blocks/404-page" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -52,16 +47,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Yurij Leginchuk\Desktop\Build\Vina\src\pug\blocks\raitings-page" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Yurij Leginchuk\Desktop\Build\Vina\src\scss\blocks" />
       <recent name="$PROJECT_DIR$/src/libs" />
       <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/app/scss/ui" />
       <recent name="$PROJECT_DIR$/app/scss/helpers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pug/blocks/404-page" />
+      <recent name="C:\Users\Yurij Leginchuk\Desktop\Build\Vina\src\pug\blocks\raitings-page" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -135,6 +131,7 @@
       <workItem from="1573238095031" duration="91000" />
       <workItem from="1573238207571" duration="4950000" />
       <workItem from="1573292403652" duration="121000" />
+      <workItem from="1573501284577" duration="1894000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Сделал адаптив главной + прототип всплывающего окна&quot;">
       <created>1572451262258</created>
