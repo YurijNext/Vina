@@ -110,11 +110,17 @@
   overflow: visible;
 }
 
-.b-cats .mCSB_inside>.mCSB_container {
-  display: flex;
-  padding-left: 24px;
-  border-left: 1px solid #c4c4c4;
+.b-cats .full-list {
+  top: 0 !important;
+  width: 100% !important;
 }
+
+
+//.b-cats .mCSB_inside>.mCSB_container {
+//  display: flex;
+//  padding-left: 24px;
+//  border-left: 1px solid #c4c4c4;
+//}
 
 .b-cats .mCSB_scrollTools .mCSB_draggerContainer {
   height: 115%;
