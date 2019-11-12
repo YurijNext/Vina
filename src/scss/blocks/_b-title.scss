@@ -113,7 +113,7 @@
   margin-left: 34px;
   .b-title__descr {
     margin-left: 0;
-    margin-bottom: 21px;
+    margin-bottom: 55px;
   }
 }
 
@@ -122,6 +122,7 @@
   @include font(56);
   font-family: $fair-normal;
   line-height: rem(64);
+  font-weight: normal;
   color: $accent;
   padding-bottom: 46px;
   padding-left: 110px;

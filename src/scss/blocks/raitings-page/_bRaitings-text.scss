@@ -50,5 +50,48 @@
     color: $text;
     font-family: $fair-normal;
     margin-left: 15px;
+    white-space: nowrap;
   }
+}
+
+@media only screen and (max-width: 970px) {
+  .bRaitings-text {
+    flex-direction: column;
+  }
+
+  .bRaitings-text__left {
+    width: 100%;
+    order: 1;
+  }
+
+  .bRaitings-text__wrap {
+    border-right: none;
+  }
+
+  .bRaitings-text__img-wrapper {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .bRaitings-text__photo {
+    width: 100%;
+    order: 0;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 30px;
+
+    img {
+      margin: 0 auto;
+    }
+  }
+
+  .bRaitings-text__name {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .bRaitings-text__name {
+    font-size: 2.5rem;
+  } 
 }

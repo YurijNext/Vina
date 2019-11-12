@@ -1,6 +1,9 @@
 .bAside-rtg {
   min-width: 256px;
+  width: 256px;
   margin-right: 32px;
+  left: 0;
+  transition: all .3s ease-in-out;
 
   &__group-name {
     font-size: 16px;
@@ -12,8 +15,14 @@
     color: #271317;
   }
 
-  &__btn {
+  &__content {
     font-size: 16px;
+    font-weight: 400;
+    color: #271317;
+    transition: all .3s ease-out;
+  }
+
+  &__btn {
     font-family: 'PlayfairDisplay Regular', sans-serif;
     padding: 12px 20px;
     display: block;
@@ -23,8 +32,34 @@
     border-bottom: 1px solid #C4C4C4 ;
     cursor: pointer;
     text-align: left;
-    color: #271317;
+    &:hover {
+      .bAside-rtg__content {
+        font-size: 16px;
+        font-family: 'PlayfairDisplay Bold', sans-serif;
+        color: #271317;
+      }
+    }
   }
 
 
+}
+
+@media only screen and (max-width: 1200px) {
+  .bAside-rtg {
+    position: absolute;
+    left: -999px;
+    transition: all .3s ease-in-out;
+
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .bAside-rtg {
+    width: 220px;
+    max-width: 220px;
+  }
+}
+
+.b-raitings .b-goods--shift-right {
+  transform: translateX(280px)!important;
 }

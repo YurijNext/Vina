@@ -1,12 +1,11 @@
 .b-aside {
-  padding-top: 9px;
   min-width: 256px;
   margin-right: 32px;
   @include trs();
 
   .b-aside__search-wrap {
     border-bottom: 1px solid #C4C4C4;
-    padding-bottom: 15px;
+    padding-bottom: 32px;
     background: none;
   }
 
@@ -14,9 +13,13 @@
     background-color: transparent;
   }
 
-  .js-field-erase {
+  .b-aside__search-wrap  {
+    height: 100%;
+  }
+
+  .b-aside__search-wrap .js-field-erase {
     left: 90%;
-    top: 50%;
+    top: 24%;
     transform: translateY(-50%);
   }
 }
@@ -107,6 +110,7 @@
   &__filter-label {
     color: $text;
     cursor: pointer;
+    @include trs();
     strong {
       font-family: $mainFont;
       color: $accent;
@@ -121,6 +125,10 @@
         left: 8px;
         top: 55%;
       }
+    }
+
+    &:hover {
+      color: $accent;
     }
   }
 

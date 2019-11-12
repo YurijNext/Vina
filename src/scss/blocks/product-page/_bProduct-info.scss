@@ -20,11 +20,14 @@
     background-color: $s-gray;
     width: 50%;
     max-width: 560px;
-    padding: 32px;
+    padding-right: 32px;
+    padding-left: 0;
+    padding-bottom: 0;
     padding-top: 24px;
   }
 
   &__subtitle {
+    padding-left: 32px;
     @include font(14);
     font-family: $latoLight;
     color: $text;
@@ -51,6 +54,7 @@
     top: 54px;
     left: 0;
     @include font(24);
+    font-family: $latoLight;
     line-height: rem(48);
     color: $text;
   }
@@ -61,6 +65,7 @@
     bottom: 117px;
     display: inline-block;
     @include font(24);
+    font-family: $latoLight;
     line-height: rem(48);
     color: $text;
     transform: rotate(270deg);
@@ -74,7 +79,7 @@
   &__ratings {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 37px;
   }
 
   &__rating-block {
@@ -86,6 +91,11 @@
     &:last-child {
       border-right: none;
     }
+  }
+
+  &__detail-info {
+    padding-left: 32px;
+    border-left: 2px solid $accent;
   }
 
   &__rating-stars {
@@ -110,8 +120,8 @@
   }
 
   &__rating-number {
-    font-family: $fair-bold;
     @include font(24);
+    font-family: 'Playfair Display', serif;
     line-height: rem(32);
     margin-bottom: 8px;
     color: $accent;
@@ -122,6 +132,10 @@
     justify-content: space-between;
     padding: 12px 0;
     border-bottom: 1px solid #C4C4C4;
+    &:last-child {
+      border-bottom: none;
+      padding-bottom: 44px;
+    }
   }
 
   &__property {
@@ -235,6 +249,53 @@
 
   .b-product__additional-item {
     width: 50%;
+  }
+
+  .b-product__accent {
+    font-size: 2rem;
+  }
+
+  .b-product__alcohol {
+    font-size: 1rem;
+  }
+  
+  .b-product__title {
+    font-size: 1.3rem;
+  }
+
+  .b-product__property-item {
+    flex-direction: column;
+  }
+
+  .b-product__value {
+    align-self: flex-end;
+  }
+
+  .b-product__ratings {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .b-product__rating-block {
+    border-right: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 360px) {
+  .b-product__accent {
+    font-size: 1.5rem;
+  }
+
+  .b-product__alcohol {
+    font-size: 1rem;
+  }
+
+  .b-product__value {
+    font-size: 14px;
   }
 }
 

@@ -2,15 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469af4ad-2a8d-452f-9b32-ad0571788b7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/modules/raitings-page/raitings.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/modules/raitings-page/raitings.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/modules/raitings-page/raitings.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/modules/raitings-page/raitings.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/found.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/found.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/scripts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/raitings.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/raitings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/blocks/index-page/_bCats.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/index-page/_bCats.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_bModal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_bModal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/blocks/raitings-page/_bSelects.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/raitings-page/_bSelects.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/modules/_head.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/modules/_head.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/modules/_raitings.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/modules/_raitings.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_b-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_b-title.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_selects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_selects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/found-page/_bAside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/found-page/_bAside.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/product-page/_bProduct-info.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/product-page/_bProduct-info.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bAside-rtg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bAside-rtg.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bCards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bCards.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bRaitings-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bRaitings-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bRaitings__content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bRaitings__content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bSelects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bSelects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +55,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Sgg8i3DYoAbeGGtpblOTz5OKzT" />
@@ -135,6 +160,7 @@
       <workItem from="1573238095031" duration="91000" />
       <workItem from="1573238207571" duration="4950000" />
       <workItem from="1573292403652" duration="121000" />
+      <workItem from="1573543363379" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Сделал адаптив главной + прототип всплывающего окна&quot;">
       <created>1572451262258</created>

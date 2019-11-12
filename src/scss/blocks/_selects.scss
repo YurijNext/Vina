@@ -20,11 +20,14 @@
   height: 48px;
   display: flex;
   align-items: center;
+  font-size: 16px;
   padding-left: 16px;
   cursor: pointer;
   color: $accent;
   position: relative;
   padding-right: 40px;
+  font-family: $latoLight;
+  font-weight: 300;
   &:hover {
     background-color: #efecea;
     &::after {

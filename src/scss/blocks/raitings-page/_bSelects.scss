@@ -14,5 +14,50 @@
 
   &__select {
     width: 256px;
+    transition: all .3s ease;
+    &:hover {
+      border: 1px solid #C4C4C4;
+    }
+  }
+}
+
+.bSelects__border {
+  border: 1px solid #C4C4C4;
+}
+
+@media only screen and (max-width: 950px) {
+
+  .bSelects {
+    display: flex;
+    justify-content: space-around;
+
+    &__row {
+      width: 46%;
+      flex-direction: column;
+    }
+
+    &__select {
+      margin-bottom: 30px;
+      width: 100%;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 660px) {
+  .bSelects {
+    flex-direction: column;
+    align-items: center;
+
+    &__row {
+      width: 80%;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 460px)  {
+  .bSelects__row {
+    width: 100%;
   }
 }

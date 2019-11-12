@@ -106,6 +106,20 @@ $(document).ready(function () {
 
   })();
 
+  const filterOpen2 = (function() {
+    const openBtn = $('.js-filters'),
+          filters = $('.bAside-rtg'),
+          content = $('.raitings__main');
+
+    openBtn.on('click', function(e) {
+      e.preventDefault();
+      content.toggleClass('b-goods--shift-right');
+      filters.toggleClass('b-aside--shift-right');
+    });
+
+  })();
+  
+
   /**  **/
   const dropdown = (function() {
     const openBtn = $('.js-open-drop'),
@@ -117,11 +131,17 @@ $(document).ready(function () {
       let sibling = $(this).siblings('.b-main__dropdown');
 
       openBtn.not($(this)).siblings('.b-main__dropdown').removeClass('b-main__dropdown--open');
+      openBtn.not($(this)).siblings('.b-main__dropdown').removeClass('bSelects__border');
       openBtn.not($(this)).parents('.input-pseudo').removeClass('input-pseudo--active');
+      openBtn.not($(this)).parents('.bSelects__select').removeClass('bSelects__border');
 
       openBtn.not($(this)).removeClass('current');
 
       sibling.toggleClass('b-main__dropdown--open');
+      if($(this).hasClass="js-open-drop--bordered") {
+        $(this).parents('.bSelects__select').toggleClass('bSelects__border');
+        sibling.toggleClass('bSelects__border');
+      }
       $(this).toggleClass('current');
     });
 
@@ -129,6 +149,7 @@ $(document).ready(function () {
       $(this).parents('.b-main__dropdown').siblings('.js-open-drop').html($(this).text());
       dropdown.removeClass('b-main__dropdown--open');
       $(this).parents('.b-main__dropdown').siblings('.b-main__field').toggleClass('current');
+      openBtn.parents('.bSelects__select').removeClass('bSelects__border');
     });
 
     $('.b-main__input').on('click', function() {
