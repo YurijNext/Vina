@@ -205,4 +205,34 @@ $(document).ready(function () {
   });
 
 
+
+let articleSlider = new Swiper ('.js-article-slider', {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 32,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-prev',
+      prevEl: '.swiper-button-next',
+    },
+    breakpoints: {
+      980: {
+        slidesPerView: 1,
+      },
+      1140: {
+        slidesPerView: 2,
+        spaceBetween: 32,
+      },
+      1250: {
+        slidesPerView: 3,
+        spaceBetween: 32,
+      },
+    }
+
+});
+
+
 });

@@ -73,7 +73,7 @@
 
   &__accent {
     font-size: 3rem;
-    font-family: $fair-bold;
+    font-family: $garamond;
   }
 
   &__ratings {
@@ -121,7 +121,7 @@
 
   &__rating-number {
     @include font(24);
-    font-family: 'Playfair Display', serif;
+    font-family: $garamond;
     line-height: rem(32);
     margin-bottom: 8px;
     color: $accent;

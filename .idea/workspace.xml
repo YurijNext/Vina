@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="469af4ad-2a8d-452f-9b32-ad0571788b7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/modules/raitings-page/raitings.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/modules/raitings-page/raitings.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/modules/raitings-page/raitings.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/modules/raitings-page/raitings.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/dist/fonts/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/found.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/found.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/raitings.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/raitings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/blocks/index-page/_bCats.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/index-page/_bCats.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/blocks/raitings-page/_bSelects.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/raitings-page/_bSelects.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/modules/_head.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/modules/_head.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/modules/_raitings.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/modules/_raitings.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_b-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_b-title.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_selects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_selects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/found-page/_bAside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/found-page/_bAside.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/product-page/_bProduct-info.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/product-page/_bProduct-info.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bAside-rtg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bAside-rtg.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bCards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bCards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bRaitings-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bRaitings-text.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bRaitings__content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bRaitings__content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bSelects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bSelects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gulp.js.default" />
         <item itemvalue="Gulp.js.default" />
       </list>
     </recent_temporary>
@@ -245,6 +218,7 @@
     <MESSAGE value="траница товаров" />
     <MESSAGE value="Сделал адаптивность стр товаров" />
     <MESSAGE value="Страница продукта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Страница продукта" />
+    <MESSAGE value="add .idea for gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .idea for gitignore" />
   </component>
 </project>
