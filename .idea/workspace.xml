@@ -3,6 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="469af4ad-2a8d-452f-9b32-ad0571788b7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/scripts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/raitings.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/raitings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/blocks/article-page/_article.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/article-page/_article.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/blocks/index-page/_bAbout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/index-page/_bAbout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/blocks/raitings-page/_bRaitings-text.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/blocks/raitings-page/_bRaitings-text.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_bBrad-cramps.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_bBrad-cramps.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/article-page/_bArticle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/article-page/_bArticle.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/blog-page/_posts-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/blog-page/_posts-list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/index-page/_bAbout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/index-page/_bAbout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bRaitings-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/raitings-page/_bRaitings-text.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,6 +149,9 @@
       <workItem from="1573238207571" duration="4950000" />
       <workItem from="1573292403652" duration="121000" />
       <workItem from="1573543363379" duration="606000" />
+      <workItem from="1573566294468" duration="408000" />
+      <workItem from="1574095222003" duration="2804000" />
+      <workItem from="1574156356975" duration="1597000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Сделал адаптив главной + прототип всплывающего окна&quot;">
       <created>1572451262258</created>
@@ -191,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572882795197</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add all pages">
+      <created>1573566456559</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573566456559</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +244,7 @@
     <MESSAGE value="Сделал адаптивность стр товаров" />
     <MESSAGE value="Страница продукта" />
     <MESSAGE value="add .idea for gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add .idea for gitignore" />
+    <MESSAGE value="add all pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add all pages" />
   </component>
 </project>

@@ -1,3 +1,11 @@
+.article-page .b-looking-slider .swiper-container {
+	padding-top: 60px;
+}
+
+.article-page .b-looking-slider {
+	margin-top: 40px;
+}
+
 .article-page {
 	background-color: #F6F6F6;
 }
@@ -64,7 +72,8 @@
 		}
 	}
 
-	&__blockquote {
+	blockquote {
+		display: block;
 		font-weight: 	normal;
 		color: #271317;
 		padding-left: 	16px;
@@ -72,7 +81,7 @@
 		margin-bottom: 	48px;
 	}
 
-	&__h2 {
+	h2 {
 		font-family: 'PlayfairDisplay Bold', serif;
 		font-size: 	1.75rem;
 		line-height: 	1.8rem;
@@ -80,7 +89,7 @@
 		margin-bottom: 	32px;
 	}
 		
-	&__text {
+	p {
 		font-family: 'Lato Light', sans-serif;
 		color: #271317;
 		margin-bottom: 	24px;
@@ -92,7 +101,7 @@
 		margin-bottom: 	50px;
 	}
 
-	&__item {
+	&__list li {
 		padding-left: 	32px;
 		margin-bottom: 	8px;
 		font-family: 	'Lato Light', sans-serif;
@@ -111,7 +120,7 @@
 
 	}	
 
-	&__img-wrap {
+	img {
 		margin-bottom: 	85px;
 	}
 
@@ -128,7 +137,7 @@
 			content: "";
 			position: absolute;
 			left: 0;
-			top: 10px;
+			top: 15px;
 			width: 48px;
 			height: 1px;
 			background-color: #271317;
@@ -150,11 +159,19 @@
 		margin-bottom: 	80px;
 	} 
 
-	&__doublle-img {
+	&__doublle-wrap img {
 		margin-right: 	32px;
 		width: 48%;
 		display: block;
 	
+	}
+
+	&__doublle-wrap img:last-child {
+		margin-right: 0;
+	}
+
+	.b-card__img-wrap {
+		margin-bottom: 0;
 	}
 
 	&__num-list {
@@ -162,19 +179,19 @@
 		margin-left: 	80px;
 	}
 
-	&__number {
+	&__num-list strong {
 		font-family: 	'PlayfairDisplay Bold', serif;
 		margin-right: 	20px;
 		display: block
 	}
 
-	&__num-item {
+	&__num-list li {
 		font-family: 	'Lato Light', sans-serif;
 		display: flex;
 		margin-bottom: 	7px;
 	}	
 
-	&__h3 {
+	h3 {
 		font-family: 	'PlayfairDisplay Bold', serif;
 		font-size: 	22px;
 		line-height: 	32px;
@@ -247,6 +264,30 @@
 	}
 
 
+}
+
+.b-article table {
+	margin-bottom: 48px;
+}
+
+.b-article td {
+	font-family: 'Lato Light', sans-serif;
+	color: #271317;
+	padding: 8px 0;
+}
+
+.b-article th {
+	font-weight: 500;
+	color: #271317;
+	text-align: left;
+}
+
+.b-article tr {
+	border-bottom: 1px solid #C4C4C4;
+}
+
+.b-article tr th:first-child {
+	width: 25%;
 }
 
 @media only screen and(max-width: 1020px) {

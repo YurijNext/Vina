@@ -27,8 +27,6 @@ $(document).ready(function () {
   });
 
   /** Lists popup **/
-
-
   const viewList = (function() {
     const openBtn = $('.b-aside__drop-btn'),
           closeBtn = $('.js-close-full-list');
@@ -46,6 +44,7 @@ $(document).ready(function () {
     });
   })();
 
+  /** Modal **/
   const viewModal = (function() {
     const openBtn = $('.b-cats__all');
 
@@ -120,7 +119,7 @@ $(document).ready(function () {
   })();
   
 
-  /**  **/
+  /** Dropdown**/
   const dropdown = (function() {
     const openBtn = $('.js-open-drop'),
           dropdown = $('.b-main__dropdown'),

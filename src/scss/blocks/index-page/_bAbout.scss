@@ -105,6 +105,23 @@
   top: 26% !important;
 }
 
+.b-about__textblock li {
+  font-size: 14px;
+  color: $text;
+  padding-left: 18px;
+  position: relative;
+
+  &:after {
+    @include pseudo();
+    width: 5px;
+    height: 1px;
+    background-color: $text;
+    left: 0;
+    top: 50%;
+  }
+}
+
+
 
 @media only screen and (max-width: 1150px) {
   .b-about__title .b-title__descr {
